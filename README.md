@@ -23,7 +23,7 @@ python .\FreeCOS-main\Data\CrackTree\convert_gray.py
 
 > [!NOTE]
 >
-> 如需对生成gt颜色（黑白交换等），可在 convert_gt line 47/48 进行更改
+> 如需对生成gt颜色（黑白交换等），可在 convert_gt line 47/48 进行更改，更保守的做法是运行 **.\FreeCOS-main\FreeCOS-main\FDA_RGB\inverse_black_white** 
 
 曲线结构对应的box的txt文件在 .\FreeCOS-main\Data\CrackTree\txt_data 目录下
 
