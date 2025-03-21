@@ -27,3 +27,12 @@ python .\FreeCOS-main\Data\CrackTree\convert_gray.py
 
 曲线结构对应的box的txt文件在 .\FreeCOS-main\Data\CrackTree\txt_data 目录下
 
+2、曲线结构嵌入
+
+修改 **.\FreeCOS-main\FDA_RGB> .\FDA_retinal.py** 中的line154 ~ line156，其中tar是背景，src是需要嵌入的曲线结构，随后运行，得到仿真数据集的 <u>**img、mask、txt**</u>，保存目录见line157 ~ line158。
+
+```python
+python .\FreeCOS-main\FDA_RGB\FDA_retinal.py
+```
+
+## 步骤二：制作训练数据
