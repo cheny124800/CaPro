@@ -20,7 +20,7 @@ python .\FreeCOS-main\Data\CrackTree\make_fakevessel.py
 # 生成gray版曲线结构
 python .\FreeCOS-main\Data\CrackTree\convert_gray.py
 # 生成gt版曲线结构
-python .\FreeCOS-main\Data\CrackTree\convert_gray.py
+python .\FreeCOS-main\Data\CrackTree\convert_gt.py
 ```
 
 > [!NOTE]
@@ -76,6 +76,8 @@ python .\FreeCOS-main\FDA_RGB\FDA_retinal.py
 > 1、Cal_IOU_F1.py可基于分割结果和GT直接计算指标
 >
 > 2、ChooseK.py可直接截断txt文件中前K行，因此建议首次运行TopK时可将K设为一个较大的保守值，通过ChooseK截断以节省时间。
+>
+> 3、预训练模型需要自行下载
 >
 > 在**.\Capro\R-CenterNet-master_OOO\R-CenterNet-master**中：
 >
