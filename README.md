@@ -85,3 +85,14 @@ python .\FreeCOS-main\FDA_RGB\FDA_retinal.py
 >
 > 
 
+| 分割模型\数据集 | OCTA500          | OCTA1600               | DEEPCRACK      |
+| --------------- | ---------------- | ---------------------- | -------------- |
+| SAM             | k = 25~35, vit_b | k = 25~35, vit_h/vit_b | k = 5~7, vit_h |
+| SAM2            |                  |                        |                |
+
+
+
+#### 大文件
+
+通过网盘分享的文件：Capro_PthFile
+链接: https://pan.baidu.com/s/1i7Kid7Io943dJNiH39GylQ?pwd=1fj5 提取码: 1fj5
